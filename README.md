@@ -41,6 +41,20 @@ Run the tunnel in a separate terminal
 minikube tunnel
 ```
 
+Acces the wbesite at http://localhost
+
+## Clean up
+Uninstall the Sock Shop application
+```
+kubectl delete -f manifests/00-sock-shop-ns.yaml -f manifests
+```
+
+To stop and delete the Minikube cluster
+```
+minikube stop
+minikube delete
+```
+
 
 
 
