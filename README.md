@@ -6,7 +6,7 @@ Install [Minikube](https://github.com/kubernetes/minikube?tab=readme-ov-file#min
 
 Install [kubectl](https://kubernetes.io/docs/tasks/tools/)
 
-## Clone the microservices-demo repo
+## Clone the microservices-sock-shop repo
 ```
 git clone https://github.com/agapasieka/microservices-sock-shop
 cd microservices-sock-shop
