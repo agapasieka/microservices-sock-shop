@@ -8,8 +8,8 @@ Install [kubectl](https://kubernetes.io/docs/tasks/tools/)
 
 ## Clone the microservices-demo repo
 ```
-git clone https://github.com/microservices-demo/microservices-demo
-cd microservices-demo
+git clone https://github.com/agapasieka/microservices-sock-shop
+cd microservices-sock-shop
 ```
 
 ## Start Minikube
@@ -20,7 +20,7 @@ Check if it's running with 'minikube status' command
 
 ## Deploy Sock Shop
 ```
-kubectl create -f deploy/kubernetes/manifests/00-sock-shop-ns.yaml -f deploy/kubernetes/manifests
+kubectl create -f manifests/00-sock-shop-ns.yaml -f manifests
 ```
 
 ## Wait for all the Sock Shop services to start
