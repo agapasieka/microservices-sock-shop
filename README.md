@@ -31,6 +31,11 @@ kubectl get pods --namespace="sock-shop"
 ## Expose the Sock Shop webpage
 Services of type LoadBalancer can be exposed via the 'minikube tunnel' command. It must be run in a separate terminal window to keep the LoadBalancer running.
 
+Install an Ingress Controller
+```
+minikube addons enable ingress
+```
+
 Run the tunnel in a separate terminal
 ```
 minikube tunnel
