@@ -1,5 +1,5 @@
 # Sock Shop on Minikube
-This lab demonstrates running the Sock Shop on Minikube.
+This lab deploys the Sock Shop on Minikube.
 
 ## Pre-requisites
 Install [Minikube](https://github.com/kubernetes/minikube?tab=readme-ov-file#minikube)
